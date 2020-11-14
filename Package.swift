@@ -12,7 +12,7 @@ let package = Package(
     .executable(name: "SquareNumber", targets: ["SquareNumber"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime.git", .upToNextMajor(from:"0.1.0")),
+    .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime.git", .upToNextMajor(from:"0.3.0")),
   ],
   targets: [
     .target(
